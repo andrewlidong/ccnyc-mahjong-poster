@@ -1,23 +1,23 @@
-# CCNYC Mahjong Poster
+# ccnyc mahjong poster
 
-A code-driven looping animation for a [Creative Coding NYC](https://creativecoding.nyc) Reel — mahjong tiles drop from above and lay down as melds spelling out the event details.
+a code-driven looping animation for a [creative coding nyc](https://www.instagram.com/creativecodingnyc/) reel — mahjong tiles drop from above and lay down as melds spelling out the event details.
 
-**Live:** <https://andrewlidong.github.io/ccnyc-mahjong-poster/>
+**live:** <https://andrewlidong.github.io/ccnyc-mahjong-poster/>
 
-## Made with
+## made with
 
-- **[Three.js](https://threejs.org/)** — 3D scene, vertical 9:16 perspective camera, post-processing chain
-- **GLSL custom shaders** — tile material (ivory body, engraved character, face-tinted SSS + bevel) and the background (domain-warped FBM blue swirl)
-- **Canvas 2D** — per-character textures generated at runtime (calligraphic brush font for letters, crimson/jade ink for digits/letters mirroring traditional mahjong tiles)
-- **No build step** — just static HTML + ES modules + a CDN import for Three.js
+- **[three.js](https://threejs.org/)** — 3d scene, vertical 9:16 perspective camera, post-processing chain
+- **glsl custom shaders** — tile material (ivory body, engraved character, face-tinted sss + bevel) and the background (domain-warped fbm blue swirl)
+- **canvas 2d** — per-character textures generated at runtime (calligraphic brush font for letters, crimson/jade ink for digits/letters mirroring traditional mahjong tiles)
+- **no build step** — just static html + es modules + a cdn import for three.js
 
-## Run locally
+## run locally
 
 ```bash
 python3 -m http.server 8000
 # then open http://localhost:8000
 ```
 
-## Record
+## record
 
-The canvas is fixed at 1080×1920 (9:16). Screen-record one loop (~22s) and you've got a Reel-ready clip.
+the canvas is fixed at 1080×1920 (9:16). screen-record one loop (~22s) and you've got a reel-ready clip.
